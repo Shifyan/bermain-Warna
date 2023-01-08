@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bermain Warna</title>
+        <meta charset="utf-8">
+        <style>
+            body{
+                text-align: center;
+            }
+            .hijau{
+                background-color: green;
+            }
+            h2{
+                border-top: 1px solid black;
+                padding: 20px;
+            }
+
+            .box{
+                width: 60px;
+                height: 60px;
+                margin: auto;
+                border: 4px solid black;
+            }
+            .merah{
+                background-color: red;
+            }
+            .hijau1{
+                background-color: green;
+            }
+
+            .biru{
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Latihan Mengubah Warna</h1>
+        <button id="btn">Hijau!</button>
+        <button id="btn-acak" type="button">Warna Acak!</button>
+        <br><br>
+        <h2>Custom Warna (RGB)</h2>
+        <div class="box merah"></div>
+        <input type="range"  id="rMerah" min="0" max="255">
+        <div class="box hijau1"></div>
+        <input type="range" id="rHijau" min="0" max="255">
+        <div class="box biru"></div>
+        <input type="range" id="rBiru" min="0" max="255">
+
+        <script src="./mainWarna.js"></script>
+    </body>
+</html>
